@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Vladimir Iakovlev <nvbn.rm@gmail.com>
 
+ENV CLOJURE_UPDATED "201529032119"
 RUN adduser --disabled-password --gecos "" clojure
 
 RUN apt-get update -yqq
